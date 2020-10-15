@@ -21,7 +21,7 @@ html, body {
 
 .line{
     width:24em;
-    top: 50%;
+    top: 40%;
     margin: auto;
     border-right: 2px solid rgba(255,255,255, 0.75);
     text-align:center;
@@ -83,6 +83,7 @@ nav #brand {
 nav #brand a {
     color: #fff;
     transition: all 0.3s ease-out;
+    border-bottom: 1px solid #fff;
 }
 nav #brand a:hover {
     text-decoration:none;
@@ -227,13 +228,20 @@ nav #menu li a:hover {
     align-items: center;
     justify-content: center;
 }
-
+.avatar {
+    border-radius: 50%;
+    height:250px;
+    width:250px;
+    text-align:center;
+    left: 43.7%;
+    position:absolute;
+    top: 55%;
+}
 .hero h1 {
     font-weight: lighter;
     text-align: center;
     letter-spacing: -2px;
     line-height: 58px;
-
 }
 @media(max-width: 768px) {
     .header h1 {
