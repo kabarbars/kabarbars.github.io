@@ -49,7 +49,7 @@ html, body {
             width:0;
         }
         to {
-            width: 17em;
+            width: 18.5em;
         }
     }
 }
@@ -228,12 +228,16 @@ nav #menu li a:hover {
     align-items: center;
     justify-content: center;
 }
+.profile {
+    text-align: center;
+    position: absolute;
+    margin-top:100px;
+}
 .avatar {
     border-radius: 50%;
     height:250px;
     width:250px;
-    text-align:center;
-    left: 43.7%;
+    margin-left:-125px;
     position:absolute;
     top: 55%;
 }
